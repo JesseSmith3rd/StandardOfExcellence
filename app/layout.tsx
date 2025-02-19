@@ -1,5 +1,6 @@
 import "./globals.css"; // Ensures Tailwind is loaded
-import Navbar from "./components/Navbar"; // Import the Navbar
+import Navbar from "./components/Navbar"; // Import Navbar
+import Footer from "./components/Footer"; // Import Footer
 
 export const metadata = {
   title: "Standard of Excellence",
@@ -10,11 +11,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <Navbar /> {/* ✅ Navbar added globally */}
-        {children}
+        <Navbar /> {/* ✅ Navbar at the top */}
+        <main className="min-h-screen">{children}</main>
+        <Footer /> {/* ✅ Footer at the bottom */}
       </body>
     </html>
   );
 }
-
-
