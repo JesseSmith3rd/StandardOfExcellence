@@ -11,13 +11,13 @@ const books = [
     title: "There Is An East Wind Blowing - The Lost Raven",
     description: "For it is the Lost Raven that tells the backstory from the Brooks Search.",
     image: "/book2.jpg",
-    buyLink: "https://www.amazon.com/dp/example2",
+    buyLink: "https://www.amazon.com/gp/product/B0BRNYLY59/ref=ox_sc_act_image_1?smid=ATVPDKIKX0DER&psc=1",
   },
   {
     title: "Book Title 3",
     description: "A brief description of Book 3 goes here.",
     image: "/book3.jpg",
-    buyLink: "https://www.amazon.com/gp/product/B0BRNYLY59/ref=ox_sc_act_image_1?smid=ATVPDKIKX0DER&psc=1",
+    buyLink: "https://www.amazon.com/gp/product/",
   },
 ];
 
