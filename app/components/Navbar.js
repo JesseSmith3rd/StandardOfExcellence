@@ -9,26 +9,8 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="flex space-x-6">
-          <li>
-            <Link href="/" className="text-white hover:text-gray-300">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="text-white hover:text-gray-300">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/books" className="text-white hover:text-gray-300">
-              Books
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="text-white hover:text-gray-300">
-              Contact
-            </Link>
-          </li>
+   
+         
         </ul>
       </div>
     </nav>
