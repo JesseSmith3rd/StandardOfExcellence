@@ -1,19 +1,22 @@
-import "./globals.css"; // Ensures Tailwind is loaded
-import Navbar from "./components/Navbar"; // Import Navbar
-import Footer from "./components/Footer"; // Import Footer
+import "./globals.css";
+import Navbar from "./components/Navbar";
+import { ReactNode } from "react";
 
 export const metadata = {
   title: "Standard of Excellence",
-  description: "A mentorship program to guide boys, teenagers, and men toward success.",
+  description: "Empowering boys, teenagers, and men through mentorship and leadership development.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+type RootLayoutProps = {
+  children: ReactNode;
+};
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body>
-        <Navbar /> {/* ✅ Navbar at the top */}
-        <main className="min-h-screen">{children}</main>
-        <Footer /> {/* ✅ Footer at the bottom */}
+        <Navbar />  {/* This makes Navbar appear on all pages */}
+        <main>{children}</main>
       </body>
     </html>
   );
