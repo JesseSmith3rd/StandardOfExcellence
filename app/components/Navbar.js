@@ -15,7 +15,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/events" classMate="hover:text-blue-600 transition">
+          <Link href="/events" className="hover:text-blue-600 transition">
           Events
           </Link>
         </li>
