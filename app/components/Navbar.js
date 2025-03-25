@@ -15,6 +15,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link href="/mission" className="hover:text-blue-600 transition">
+            Mission
+          </Link>
+        </li>
+        <li>
           <Link href="/events" className="hover:text-blue-600 transition">
           Events
           </Link>
