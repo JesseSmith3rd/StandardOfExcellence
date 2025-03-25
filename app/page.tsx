@@ -64,17 +64,7 @@ export default function Home() {
   </nav>
 
   {/* Hero Content */}
-  <div className="bg-black bg-opacity-50 p-8 rounded-lg shadow-lg flex flex-col items-center text-center max-w-2xl">
-    <h1 className="text-5xl font-bold"> Standard of Excellence: Mentoring and Leadership Society</h1>
-    <p className="mt-4 text-lg">
-      Empowering boys, teenagers, and men through mentorship and leadership development.
-    </p>
-    <Link href="/about">
-      <button className="mt-6 bg-white text-blue-600 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-gray-200 transition">
-        Learn More
-      </button>
-    </Link>
-  </div>
+ 
 </div>
     </div>
   );
