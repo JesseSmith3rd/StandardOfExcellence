@@ -3,13 +3,13 @@ import Image from "next/image";
 const books = [
   {
     title: "There Is An East Wind Blowing - The Brooks Search",
-    description: "A true and compelling story for the believers in Christ concerning secrets that are exclusively related to my family history that could be yours.",
+    description: "The Brooks' Search.",
     image: "/book1.jpg", // Ensure this image is in /public folder
-    buyLink: "https://www.amazon.com/There-East-Wind-Blowing-Brooks/dp/B08LG7YS23/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WHRbtFF95U3dJ7x-iJi1_dT0_q4mb01FfIfBl0qtYSAv7aKmPni1Z9xQ_M--2fbvfgRznCi0DZeYoeaufa3hXBpguKV6b5JnsW3BBuT9h8PxSglN_mfqYmqL-KveF0S82tGr8kwMU2EKKuqUoF4VBaIP2vgujYzLadqy8vojIsAqSjB_-_piRtbRj1SH3NAIL9ycuM3EQGYlNtZe3mRn-bqPgy3h63Fpi05TCyNpe6E.imGUpREF3WyqJsM5kCADMaM_ttLD-mxaaifsBszzEzs&dib_tag=se&keywords=an+east+wind+is+blowing&qid=1739941058&sr=8-1https://www.amazon.com/dp/example1", // Replace with actual Amazon link
+    buyLink: "https://www.amazon.com/There-East-Wind-Blowing-Brooks/dp/B08LG7YS23/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WHRbtFF95U3dJ7x-iJi1_dT0_q4mb01FfIfBl0qtYSAv7aKmPni1Z9xQ_M--2fbvfgRznCi0DZeYoeaufa3hXBpguKV6b5JnsW3BBuT9h8PxSglN_mfqYmqL-KveF0S82tGr8kwMU2EKKuqUoF4VBaIP2vgujYzLadqy8vojIsAqSjB_-_piRtbRj1SH3NAIL9ycuM3EQGYlNtZe3mRn-bqPgy3h63Fpi05TCyNpe6E.imGUpREF3WyqJsM5kCADMaM_ttLD-mxaaifsBszzEzs&dib_tag=se&keywords=an+east+wind+is+blowing&qid=1739941058&sr=8-1https://www.amazon.com/dp/example1", //Replace with actual Amazon link
   },
   {
     title: "There Is An East Wind Blowing - The Lost Raven",
-    description: "For it is the Lost Raven that tells the backstory from the Brooks Search.",
+    description: "The Lost Raven.",
     image: "/book2.jpg",
     buyLink: "https://www.amazon.com/gp/product/B0BRNYLY59/ref=ox_sc_act_image_1?smid=ATVPDKIKX0DER&psc=1",
   },
