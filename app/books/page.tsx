@@ -1,54 +1,54 @@
 import Image from "next/image";
+import Link from "next/link";
 
-const books = [
-  {
-    title: "There Is An East Wind Blowing - The Brooks Search",
-    description: "The Brooks' Search.",
-    image: "/book1.jpg", // Ensure this image is in /public folder
-    buyLink: "https://www.amazon.com/There-East-Wind-Blowing-Brooks/dp/B08LG7YS23/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WHRbtFF95U3dJ7x-iJi1_dT0_q4mb01FfIfBl0qtYSAv7aKmPni1Z9xQ_M--2fbvfgRznCi0DZeYoeaufa3hXBpguKV6b5JnsW3BBuT9h8PxSglN_mfqYmqL-KveF0S82tGr8kwMU2EKKuqUoF4VBaIP2vgujYzLadqy8vojIsAqSjB_-_piRtbRj1SH3NAIL9ycuM3EQGYlNtZe3mRn-bqPgy3h63Fpi05TCyNpe6E.imGUpREF3WyqJsM5kCADMaM_ttLD-mxaaifsBszzEzs&dib_tag=se&keywords=an+east+wind+is+blowing&qid=1739941058&sr=8-1https://www.amazon.com/dp/example1", //Replace with actual Amazon link
-  },
-  {
-    title: "There Is An East Wind Blowing - The Lost Raven",
-    description: "The Lost Raven.",
-    image: "/book2.jpg",
-    buyLink: "https://www.amazon.com/gp/product/B0BRNYLY59/ref=ox_sc_act_image_1?smid=ATVPDKIKX0DER&psc=1",
-  },
-];
-
-export default function Books() {
+export default function BooksPage() {
   return (
-    <div className="container mx-auto p-6 text-center">
-      <h1 className="text-4xl font-bold text-gray-800">Dr. Fairleys Books</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        Click on any book to purchase it on Amazon.
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-6 py-16 text-center">
+      <h1 className="text-4xl font-bold text-blue-700 mb-8">Books by Dr. Timothy Fairley</h1>
+      <p className="text-lg text-gray-700 max-w-2xl mb-12">
+        Explore Dr. Fairley impactful books designed to guide, motivate, and develop boys, teenagers, and men through every stage of life.
       </p>
 
-      {/* Books Grid */}
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-        {books.map((book, index) => (
-          <div key={index} className="bg-white shadow-md rounded-lg p-4">
-            {/* Clickable Book Image */}
-            <a href={book.buyLink} target="_blank" rel="noopener noreferrer">
-              <Image
-                src={book.image}
-                alt={book.title}
-                width={200}
-                height={300}
-                className="rounded-md mx-auto cursor-pointer transition-transform transform hover:scale-105"
-              />
-            </a>
-            <h2 className="text-xl font-semibold mt-4">{book.title}</h2>
-            <p className="text-gray-600 mt-2">{book.description}</p>
-            <a
-              href={book.buyLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
-            >
-              Buy Now
-            </a>
-          </div>
-        ))}
+      <div className="flex flex-wrap justify-center gap-8">
+        {/* Book 1 */}
+        <div className="bg-white p-6 rounded-lg shadow-md max-w-xs transform transition-transform hover:scale-105">
+          <Image
+            src="/book1.jpg"
+            alt="Book Title 1"
+            width={200}
+            height={300}
+            className="rounded-md mx-auto"
+          />
+          <h3 className="text-xl font-bold text-gray-800 mt-4">Book Title 1</h3>
+          <p className="text-gray-600 mt-2 text-sm">
+            A brief but powerful message of purpose and discipline to help young men achieve greatness.
+          </p>
+          <Link href="https://www.amazon.com" target="_blank">
+            <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+              Buy on Amazon
+            </button>
+          </Link>
+        </div>
+
+        {/* Book 2 */}
+        <div className="bg-white p-6 rounded-lg shadow-md max-w-xs transform transition-transform hover:scale-105">
+          <Image
+            src="/book2.jpg"
+            alt="Book Title 2"
+            width={200}
+            height={300}
+            className="rounded-md mx-auto"
+          />
+          <h3 className="text-xl font-bold text-gray-800 mt-4">Book Title 2</h3>
+          <p className="text-gray-600 mt-2 text-sm">
+            A thoughtful and inspiring guide for navigating life’s challenges through mentorship and mindset.
+          </p>
+          <Link href="https://www.amazon.com" target="_blank">
+            <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+              Buy on Amazon
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
