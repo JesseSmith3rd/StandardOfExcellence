@@ -19,11 +19,11 @@ export default function BooksPage() {
             height={300}
             className="rounded-md mx-auto"
           />
-          <h3 className="text-xl font-bold text-gray-800 mt-4">Book Title 1</h3>
+          <h3 className="text-xl font-bold text-gray-800 mt-4">The Brooks Search</h3>
           <p className="text-gray-600 mt-2 text-sm">
-            A brief but powerful message of purpose and discipline to help young men achieve greatness.
+            There is an East Wind Blowing is a co-authored book that tells the story of God's favor through the crippling effects of abuse..
           </p>
-          <Link href="https://www.amazon.com" target="_blank">
+          <Link href="https://www.amazon.com/There-East-Wind-Blowing-Brooks/dp/B08LG7YS23/ref=sr_1_1?crid=1DV3V7222PCWA&dib=eyJ2IjoiMSJ9.zRJgmgPU3blZfFSHqjX0MCnkZhVa_BprOO9M_rSRp3bGjHj071QN20LucGBJIEps.D8vaF_IuFdVpK2_Lt6hLLD3VlX2cefGJonCGuhqgVmo&dib_tag=se&keywords=There+is+an+east+wind+blowing&qid=1742930478&sprefix=there+is+an+east+wind+blowin%2Caps%2C107&sr=8-1" target="_blank">
             <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
               Buy on Amazon
             </button>
@@ -39,11 +39,11 @@ export default function BooksPage() {
             height={300}
             className="rounded-md mx-auto"
           />
-          <h3 className="text-xl font-bold text-gray-800 mt-4">Book Title 2</h3>
+          <h3 className="text-xl font-bold text-gray-800 mt-4">The Lost Raven</h3>
           <p className="text-gray-600 mt-2 text-sm">
-            A thoughtful and inspiring guide for navigating life’s challenges through mentorship and mindset.
+            My ancestral story is of a different kind. Imagine if what you have been told concerning your birth is in conflict with reality.
           </p>
-          <Link href="https://www.amazon.com" target="_blank">
+          <Link href="https://www.amazon.com/THERE-EAST-WIND-BLOWING-RAVEN/dp/B0BRNYLY59" target="_blank">
             <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
               Buy on Amazon
             </button>
