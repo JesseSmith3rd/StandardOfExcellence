@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Standard of Excellence",
+  title: "Standard of Excellence: Mentoring and Leadership Society",
   description: "Empowering boys, teenagers, and men through mentorship and leadership development.",
 };
 

@@ -65,7 +65,7 @@ export default function Home() {
 
   {/* Hero Content */}
   <div className="bg-black bg-opacity-50 p-8 rounded-lg shadow-lg flex flex-col items-center text-center max-w-2xl">
-    <h1 className="text-5xl font-bold">Welcome to Standard of Excellence</h1>
+    <h1 className="text-5xl font-bold"> Standard of Excellence: Mentoring and Leadership Society</h1>
     <p className="mt-4 text-lg">
       Empowering boys, teenagers, and men through mentorship and leadership development.
     </p>
