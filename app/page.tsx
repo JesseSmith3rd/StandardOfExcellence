@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { QRCodeSVG } from "qrcode.react";
 
 export default function Home() {
   return (
@@ -66,6 +67,17 @@ export default function Home() {
   {/* Hero Content */}
  
 </div>
-    </div>
+{/* QR Code in Bottom Right Corner */}
+ <div className="hidden sm:block fixed bottom-6 right-6 z-50 bg-white p-3 rounded-lg shadow-md">
+  <QRCodeSVG 
+    value="https://standardofexcellence.org"
+    size={100}
+    fgColor="#1e40af"
+    bgColor="#ffffff"
+  />
+</div>
+
+</div>
+    
   );
 }
