@@ -2,7 +2,7 @@ export default function EventsPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-50 to-blue-100 p-6 text-center">
       <h1 className="text-5xl font-bold text-blue-800 mb-8 drop-shadow-lg">
-        Upcoming Events
+        Upcoming Events 2025
       </h1>
 
       <p className="text-lg text-gray-700 max-w-2xl mb-12">
