@@ -34,7 +34,7 @@ export default function BooksPage() {
         {/* Book 2 */}
         <div className="bg-white p-6 rounded-lg shadow-md max-w-xs transform transition-transform hover:scale-105">
           <Image
-            src="/book2.jpg"
+            src="/Book2.jpg"
             alt="Book Title 2"
             width={200}
             height={300}
