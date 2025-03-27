@@ -70,7 +70,7 @@ export default function Home() {
 {/* QR Code in Bottom Right Corner */}
  <div className="hidden sm:block fixed bottom-6 right-6 z-50 bg-white p-3 rounded-lg shadow-md">
   <QRCodeSVG 
-    value="https://standardofexcellence.org"
+    value="https://standard-of-excellence.vercel.app/"
     size={100}
     fgColor="#1e40af"
     bgColor="#ffffff"
