@@ -26,7 +26,7 @@ export default function MissionPage() {
           </p>
 
           <div className="p-6 bg-blue-100 border-l-4 border-blue-500 rounded-md italic text-blue-800 shadow-sm">
-            &ldquo;We don&rsquo;t just guide young men — we build future leaders with purpose, direction, and strength.&ldquo;   
+           <p>&ldquo;We don&rsquo;t just guide young men — we build future leaders with purpose, direction, and strength.&ldquo;</p>  
           </div>
         </div>
       </div>
