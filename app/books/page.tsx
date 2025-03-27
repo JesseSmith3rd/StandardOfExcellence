@@ -20,9 +20,9 @@ export default function BooksPage() {
             height={300}
             className="rounded-md mx-auto"
           />
-          <h3 className="text-xl font-bold text-gray-800 mt-4">The Brooks' Search</h3>
+          <h3 className="text-xl font-bold text-gray-800 mt-4">The Brook&rsquo;s Search</h3>
           <p className="text-gray-600 mt-2 text-sm">
-            There is an East Wind Blowing is a co-authored book that tells the story of God's favor through the crippling effects of abuse.
+            There is an East Wind Blowing is a co-authored book that tells the story of God&rsquo;s favor through the crippling effects of abuse.
           </p>
           <Link href="https://www.amazon.com/There-East-Wind-Blowing-Brooks/dp/B08LG7YS23/ref=sr_1_1?crid=GATK14PPFLXG&dib=eyJ2IjoiMSJ9.sMt_aqrUPo_DIETLuEM-LFW02fj_UVeaNCgs9VWe1yabMqwRD5WU_q7-GrWBA8MAPCdOgSJQjyoJOI1FPzLuX856oXNi6J2FDDpUqgGwHfA.wgZbjvrzKbUmM4MLLNGMf85VyG06yfgx_x_rSBXS4oM&dib_tag=se&keywords=There+is+an+east+wind+blowing&qid=1742931099&s=books&sprefix=there+is+an+east+wind+blowing%2Cstripbooks%2C90&sr=1-1" target="_blank">
             <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
