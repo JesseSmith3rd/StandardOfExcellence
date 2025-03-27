@@ -50,9 +50,7 @@ export default function Contact() {
 
       {/* Contact Information */}
       <div className="mt-8 text-gray-700">
-        <p>Email: <a href="mailto:info@standardofexcellence.org" className="text-blue-600 hover:underline">info@standardofexcellence.org</a></p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Address: 123 Nonprofit Street, Atlanta, GA</p>
+        <p>Email: <a href="mailto:info@standardofexcellence.org" className="text-blue-600 hover:underline">Standardof.Excellence@yahoo.com</a></p>
       </div>
     </div>
   );
