@@ -6,28 +6,28 @@ export default function EventsPage() {
     {
       city: "Pensacola, Florida",
       state: "FL",
-      season: "Summer & Fall 2025",
+      season: "TBD - To Be Decided",
       type: "Book Signing & Founder Meetup",
       description: "Join Dr. Timothy Fairley in his hometown area for an intimate book signing, author read-aloud, and Q&A covering legacy and mentorship."
     },
     {
       city: "New Orleans, Louisiana",
       state: "LA",
-      season: "Summer & Fall 2025",
+      season: "TBD - To Be Decided",
       type: "Cultural Heritage Tour & Signing",
       description: "A special author event highlighting the deep ancestral themes of 'The Lost Raven' and community development discussion."
     },
     {
       city: "Charlotte, North Carolina",
       state: "NC",
-      season: "Summer & Fall 2025",
+      season: "TBD - To Be Decided",
       type: "Leadership Seminar & Signing",
       description: "Engaging local youth groups and community leadership networks alongside the official book signing event."
     },
     {
       city: "Atlanta, Georgia",
       state: "GA",
-      season: "Summer & Fall 2025",
+      season: "TBD - To Be Decided",
       type: "Non-Profit Gala & Author Event",
       description: "Our flagship event focusing on the Standard of Excellence mentoring model and the official book showcase."
     }
@@ -69,7 +69,7 @@ export default function EventsPage() {
             </p>
           </div>
           <span className="px-4 py-2 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-500 font-bold text-sm">
-            ✨ Coming Summer & Fall 2025 ✨
+            ✨ TBD - To Be Decided ✨
           </span>
         </div>
 

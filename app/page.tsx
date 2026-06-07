@@ -85,7 +85,7 @@ export default function Home() {
 
         {/* Big Value Proposition Statement */}
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight font-serif text-slate-50 mb-6 max-w-5xl leading-tight text-center">
-          Dr. Timothy Fairley, Ed. D., Founder of &ldquo;Standard of Excellence&rdquo; is an educator, author, and keynote speaker who empowers, educates, and uplifts young men.
+          Dr. Timothy Fairley, Founder of &ldquo;Standard of Excellence&rdquo; is an educator, author, and keynote speaker who empowers, educates, and uplifts young men.
         </h1>
 
         {/* Supporting description - Inspired by motivationalmagician subheadings */}
@@ -214,7 +214,7 @@ export default function Home() {
             </p>
             
             <p className="text-slate-400 leading-relaxed text-sm">
-              Dr. Timothy Fairley, Ed. D., presents the third volume of his deep-seated memoir and ancestral exploration. Documenting heritage, strength, and foundational values that guide young leaders forward.
+              Dr. Timothy Fairley presents the third volume of his deep-seated memoir and ancestral exploration. Documenting heritage, strength, and foundational values that guide young leaders forward.
             </p>
             
             <div className="pt-2">
