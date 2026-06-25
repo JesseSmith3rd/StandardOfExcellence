@@ -202,7 +202,7 @@ export default function Home() {
             
             {/* The New Book Highlight */}
             <span className="inline-block px-2.5 py-1 rounded bg-amber-500/15 border border-amber-500/30 text-amber-400 font-bold text-xs">
-              🔥 New Release Releasing June 24, 2026!
+              🔥 New Release - Available Now!
             </span>
             
             <h2 className="text-3xl md:text-4xl font-bold font-serif text-slate-50 leading-tight">

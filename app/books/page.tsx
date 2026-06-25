@@ -29,11 +29,11 @@ export default function BooksPage() {
     {
       title: "The Land of Zion",
       subtitle: "There Is An East Wind Blowing",
-      published: "Releasing June 24, 2026",
+      published: "Published June 24, 2026",
       description: "Timothy Fairley presents the newest installation. Strong foundations will help guide you even when your destination is unknown. An empowering guide detailing the values required to navigate uncertainty.",
       image: "/book3.jpg",
-      url: "/contact?inquiry=preorder",
-      isReleased: false,
+      url: "https://www.amazon.com/dp/B0H6JSQFLB",
+      isReleased: true,
       rating: 5,
       review: "Strong foundations will help guide you even when your destination is unknown."
     }
